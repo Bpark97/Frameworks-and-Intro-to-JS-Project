@@ -1,0 +1,263 @@
+#navbar{
+    background-color: rgb(7, 27, 68);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1000;
+
+}
+
+ul, li {
+    font-size: 28px;
+    color: white;
+}
+
+.card-body{
+    background-color: rgb(7, 27, 68);
+    color: white;
+    
+}
+#cards{
+    background-color: rgb(7, 27, 68);
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: rgb(17, 83, 214);
+}
+
+.navbar-brand{
+    font-size: 36px;
+}
+
+.navbar-brand-name{
+    font-size: 36px;
+    color: white;
+}
+
+#head-image{
+    width: 100%;
+    background-color:rgb(7, 27, 68) ;
+    text-align: center;
+    padding-bottom: 28px;
+
+   
+}
+
+#head-img{
+    display: flex;
+    justify-self: center;
+    width: 88%;
+    height: 750px;
+    bottom: 8px;
+    border: 28px solid white;
+}
+
+#img-text{
+    position: absolute;
+    top: 23%;
+    right: 18.2%;
+    z-index: 999;
+    justify-content: center;
+    font-size: 88px;
+    color: rgb(254, 254, 255);
+    text-shadow: 
+    2px 2px 4px rgb(7, 27, 68),
+    0 0 1em rgb(7, 27, 68),
+    0 0 0.2em rgb(7, 27, 68);
+}
+
+footer{
+    columns: 1;
+    color: white;
+    font-size: 14px;
+    justify-items: center;
+}
+
+#toggle{
+    border: 3px solid white;
+    background-color: white;
+}
+#brunch-entree{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#brunch-head{
+    text-align: center;
+    
+}
+
+#brunch-sides{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+#dinner-head{
+    text-align: center;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#dinner-sides{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#dinner-entree{
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#menu-footer{
+    color: black;
+    margin-top: 24px;
+    
+}
+
+#carousel{
+    width: 83%;
+    border: 28px solid white;
+    border-radius: 10px;
+}
+
+#event-carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(7, 27, 68) ;
+    padding-top:15px ;
+    
+}
+
+#form-head{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#event-form{
+    background-color:rgb(7, 27, 68) ;
+}
+.form-label{
+    color: white;
+    font-size: 28px;
+}
+
+#event-head{
+    width: 100%;
+    background-color:rgb(7, 27, 68) ;
+    
+}
+
+#event-head-text{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#event-head-description{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#submit-btn{
+    display: flex;
+    justify-content: center;
+}
+
+#event-footer{
+    background-color:rgb(7, 27, 68) ;
+}
+
+#contact-head{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 27, 68);
+    
+    
+}
+
+#contact-head-img{
+   height: 650px;
+   width: 83%;
+   border: white solid 28px;
+    
+}
+
+#contact-img-text{
+    position: absolute;
+    top: 20%;
+    right: 29%;
+    z-index: 999;
+    justify-content: center;
+    font-size: 88px;
+    color: rgb(254, 254, 255);
+    text-shadow: 
+    2px 2px 4px rgb(7, 27, 68),
+    0 0 1em rgb(7, 27, 68),
+    0 0 0.2em rgb(7, 27, 68);
+}
+
+
+#hours-space{
+    background-color:rgb(7, 27, 68) ;
+}
+
+#hours-border{
+    width: 40%;
+
+}
+
+th, td {
+    text-align: center;
+    font-size: 24px;
+    
+}
+#contact-form{
+    background-color:rgb(7, 27, 68) ;
+}
+
+#contact-form-head{
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+
+#contact-button{
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+}
+
+#hours-head{
+    display: flex;
+    justify-content: center;
+    color: white;
+}

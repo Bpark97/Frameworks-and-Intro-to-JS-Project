@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <title>ContactUs</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://mspmag.com/downloads/60032/download/logo.jpg?cb=96b623811ed8784fd662cb63a0268255" alt="copper hen logo" height="125" width="150" class="rounded"></a>
+                <p class="navbar-brand-name">THE COPPER HEN</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" id="toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="contact-head">
+        <p id="contact-img-text">| Contact Us | Hours |</p>
+        <img id="contact-head-img" src="https://s3-media0.fl.yelpcdn.com/bphoto/lmNKxRSZPSPdHWIyDjsBmw/o.jpg" alt="">
+    </div>
+    <form id="contact-form" class="row needs-validation">
+        <h1 id="contact-form-head">CONTACT FORM</h1>
+        <div class="mb-3 col-6">
+            <label for="form-first-name" class="form-label" >First Name:</label>
+            <input type="text" class="form-control" id="contact-form-first-name" placeholder="Write your first name here..." required>
+        </div>
+        <div class="mb-3 col-6">
+            <label for="form-last-name" class="form-label" >Last Name:</label>
+            <input type="text" class="form-control" id="contact-form-first-name" placeholder="Write your first name here..." required>
+        </div>
+        <div class="mb-3 col-6">
+                <label for="form-email" class="form-label">Email address:</label>
+                <input type="email" class="form-control" id="contact-form-email" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3 col-6">
+            <label for="form-phone" class="form-label">Phone:</label>
+            <input type="text" class="form-control" id="contact-form-phone" placeholder="Enter your phone number here..." required>
+        </div>
+        <div class="mb-3">
+            <label for="form-description" class="form-label">Questions or Concerns:</label>
+            <textarea class="form-control" id="form-description" rows="3" placeholder="Place your questions or concerns here..."></textarea>
+        </div>
+        <div class="mb-3 col-3" id="contact-button">
+            <button class="btn btn-primary" type="submit" id="submit-btn">Submit form</button>
+        </div>
+    </form>
+    
+    <div id="hours-space" class="row justify-content-center">
+        <h1 id="hours-head">HOURS</h1>
+        <div id="hours-border" class="col-auto mt-3">
+            <table id="hours-table" class="table table-responsive table-striped table-hover">
+                <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Hours</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Closed</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>5-9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>9:30 AM - 2:30 PM, 5-9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>9 AM - 3:30 PM, 5-9 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>9 AM - 8 PM</td>
+                    </tr>
+                
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+    
+    
+</body>
+</html>

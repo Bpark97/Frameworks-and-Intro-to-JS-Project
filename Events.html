@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <title>Events</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="https://mspmag.com/downloads/60032/download/logo.jpg?cb=96b623811ed8784fd662cb63a0268255" alt="copper hen logo" height="125" width="150" class="rounded"></a>
+                <p class="navbar-brand-name">THE COPPER HEN</p>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" id="toggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex flex-row-reverse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="Index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Events.html">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="event-head">
+        <h1 id="event-head-text">Weddings & Events</h1>
+        <p id="event-head-description">Host your wedding or event at The Copper Hen! Fill out the Event Inquiry Form to schedule a consult!</p>
+    </div>
+    <div id="event-carousel">
+        <div id="carousel" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.squarespace-cdn.com/content/v1/52c83ec7e4b06ee56cba983d/1508122915328-2E4RJJ2E6W1FC6KRNJ0F/Copper+Hen+Reception-0271.jpg" class="d-block w-100" alt="..." height="650px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.squarespace-cdn.com/content/v1/52c83ec7e4b06ee56cba983d/1508124211967-BCPXAREKOU30M87FL1GM/Danielle%27s+Naked+Wedding+Cake+copy.jpg" class="d-block w-100" alt="..." height="650px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.squarespace-cdn.com/content/v1/52c83ec7e4b06ee56cba983d/1525833765592-QHSPN7SSZZ43DGR5OMU9/Andrea%26JordanCard%232-0973.jpg?format=1000w" class="d-block w-100" alt="..." height="650px" >
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.squarespace-cdn.com/content/v1/52c83ec7e4b06ee56cba983d/1508122953400-9PAAL6WPB1GCL1CDWMTC/Danielle%27s+Chocolate+Cupcakes.jpg" class="d-block w-100" alt="..." height="650px">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn0.weddingwire.com/vendor/017027/3_2/960/jpg/copper-hen-kitchen-wedding131_51_720710-170450360726128.jpeg" class="d-block w-100" alt="..." height="650px">
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <form id="event-form" class="row needs-validation" name="myForm"
+    action="/Events.html" onsubmit="return validateForm()" method="post">
+       <h2 id="form-head">Event Inquiry Form</h2>
+       <div class="mb-3 col-6" >
+            <label for="form-first-name" class="form-label" >First Name:</label>
+            <input type="text" class="form-control" id="form-first-name" placeholder="Write your first name here..." required>
+            <div class="invalid-feedback">Please enter your first name.</div>
+       </div>
+       <div class="mb-3 col-6">
+        <label for="form-last-name" class="form-label">Last Name:</label>
+        <input type="text" class="form-control" id="form-last-name" placeholder="Write your last name here..." required>
+        <div class="invalid-feedback">Please enter your last name.</div>
+       </div>
+       <div class="mb-3 col-6" >
+        <label for="form-partner-first-name" class="form-label">Fiancé/Co-Host First Name:</label>
+        <input type="text" class="form-control" id="form-first-name" placeholder="Write your fiancé or co-hosts first name here..." required>
+        <div class="invalid-feedback">Please enter your fiancés first name.</div>
+   </div>
+   <div class="mb-3 col-6">
+    <label for="form-partner-last-name" class="form-label">Fiancé/Co-Host Last Name:</label>
+    <input type="text" class="form-control" id="form-last-name" placeholder="Write your fiancé or co-hosts last name here..." required>
+    <div class="invalid-feedback">Please enter your fiancés last name.</div>
+   </div>
+        <div class="mb-3 col-6">
+            <label for="form-email" class="form-label">Email address:</label>
+            <input type="email" class="form-control" id="form-email" placeholder="name@example.com" required>
+            <div class="invalid-feedback">Please enter an email.</div>
+        </div>
+        <div class="mb-3 col-6">
+            <label for="form-phone" class="form-label">Phone:</label>
+            <input type="text" class="form-control" id="form-phone" placeholder="Write your phone number here..." required>
+            <div class="invalid-feedback">Please enter your phone number.</div>
+        </div>
+        
+        <div class="mb-3">
+            <label for="form-description" class="form-label">Event Description:</label>
+            <textarea class="form-control" id="form-description" rows="3" placeholder="Describe your event here..."></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="form-question" class="form-label">Important Details or Questions:</label>
+            <textarea class="form-control" id="form-question" rows="3" placeholder="Place your details or questions here..."></textarea>
+        </div>
+        <div class="mb-3 col-6">
+            <label for="form-date" class="form-label">
+                Choose your preferred event date:
+                <input type="date" name="party" min="2025-04-08" max="2026-04-08"  required/>
+                <div class="invalid-feedback">Please enter a date.</div>
+              </label>
+        </div>
+        <div class="mb-3 col-3">
+            <button class="btn btn-primary" type="submit" id="submit-btn">Submit</button>
+        </div>
+        
+        
+    </form>
+    <footer id="event-footer">
+        <p>ALL MENU ITEMS ARE MADE FROM SCRATCH IN HOUSE WITH AS MANY LOCAL INGREDIENTS AS POSSIBLE</p>
+        <P>| BLAKE PARKER | CODING TEMPLE | 2025 |</P>
+    </footer>
+    
+    
+    
+</body>
+</html>
